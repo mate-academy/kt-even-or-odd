@@ -1,4 +1,6 @@
 package mate.academy
 
-// Create a function `evenOrOdd` that takes an integer as an argument
-// and returns "Even" for even numbers or "Odd" for odd numbers.
+const val EVEN = "Even"
+const val ODD = "Odd"
+
+fun evenOrOdd(num : Int) : String = if (num % 2 == 0) EVEN else ODD
