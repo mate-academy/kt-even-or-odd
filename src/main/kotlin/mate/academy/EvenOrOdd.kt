@@ -1,4 +1,5 @@
 package mate.academy
 
-// Create a function `evenOrOdd` that takes an integer as an argument
-// and returns "Even" for even numbers or "Odd" for odd numbers.
+fun evenOrOdd(integer: Int): String {
+    return if (integer % 2 == 0) "Even" else "Odd"
+}
